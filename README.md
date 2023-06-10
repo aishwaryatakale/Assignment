@@ -7,9 +7,8 @@ The goal of this application is to demonstrate a basic implementation of a machi
 5)It fetches and prints the tenant and project metadata from the database.
 
 
-Steps to execute locally :
+**Steps to execute locally :**
 Please make sure to clone this repo first.
-
 
 
 1)Install the necessary dependencies:
