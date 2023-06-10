@@ -12,27 +12,31 @@ Please make sure to clone this repo first.
 
 
 1)Install the necessary dependencies:
+
 	pip install Django djangorestframework pandas scikit-learn requests python-dotenv
+	
 
 2)Run database migrations:
+
 	cd project_api
 	python manage.py makemigrations
 	python manage.py migrate
 
 3)Set environment variables:
-	Open the .env file in a text editor.
-	Set the environment variables in the file as follows:
+Open the .env file in a text editor.Set the environment variables in the file as follows:
 
-CSV_FILE_LOCATION=/path/to/data.csv
-TARGET_COLUMN=<single column in csv file to evaluate>
+	CSV_FILE_LOCATION=/path/to/data.csv
+	TARGET_COLUMN="single column in csv file to evaluate"
 
-4) Run the Django development server:
+4)Run the Django development server:
+
 	python manage.py runserver
 
-5) Execute the main script(entry point of the functionality):
+5)Execute the main script(entry point of the functionality):
+
 	python main.py
 
-6) Verify the results:
-	Check the console output of the main script for the printed tenant and project metadata.
-You can also access the Django API endpoints to view the stored data or use the Django admin interface if you have set it up.
+6)Verify the results:
+
+Check the console output of the main script for the printed tenant and project metadata.You can also access the Django API endpoints to view the stored data or use the Django admin interface if you have set it up.
 	
